@@ -203,7 +203,7 @@ critic：价值网络用TD 算法来训练，用了$q_t$和TD target（都是对
 
 #### 整体算法
 
-![image-20231018225647928](E:\typora pics\image-20231018225647928.png)
+<img src="./RL assets/image-20231018225647928.png" alt="image-20231018224052712" style="zoom: 67%;" />
 
 最后一步可以用TD error $\delta_t$代替$q_t$作为baseline，收敛会更快
 
